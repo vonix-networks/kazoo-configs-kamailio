@@ -1,10 +1,7 @@
 ####
 #### WARNING: Please DO NOT chek in any sensitive information in local.cfg or local.cfg.template
+#### This is Kazoo-Configs-Kamailio for Kamailio 5.8
 ####
-
-#####
-##### This is Kazoo-Configs-Kamailio for Kamailio 5.8
-#####
 
 #####
 ##### (1) The following lines in the `local.cfg` file must be updated for Kamailio to function properly.
@@ -31,6 +28,5 @@
 ```
 
 #
-# (3) Create a "tls" sub directoty and copy TLS cert and key to tls/kamilio.pem
+# (3) Copy TLS certificste and key to tls/kamailio.pem
 #
-
