@@ -37,7 +37,7 @@
 ##     add them in "BINDINGS" at the bottom.
 #!substdef "!MY_IP_ADDRESS!${MY_IP_ADDRESS}!g"
 #!substdef "!MY_IP_ADDRESS_EXTERNAL!${MY_IP_ADDRESS_EXTERNAL}!g"
-
+#!substdef "!MY_IP_ADDRESS_PEER!${MY_IP_ADDRESS_PEER}!g"
 ## CHANGE "kazoo://guest:guest@127.0.0.1:5672" TO THE AMQP URL
 ##     This should be the primary RabbitMQ server
 ##     in the zone that this server will service.
